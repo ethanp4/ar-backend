@@ -13,6 +13,6 @@ Ensure that the prompt changed to show that youre in the virtual environment
 pip install -r requirements.txt
 
 ## Run
-Start ```python ./receive_image.py```
+Start ```python ./receive_image.py```<br>
 Once its ready then start `./send_image.py` in a separate terminal<br>
 Make sure you run the script while within the virtual environment so that dependencies are available
