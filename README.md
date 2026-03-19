@@ -6,14 +6,16 @@ Download the model from https://huggingface.co/depth-anything/Depth-Anything-V2-
 ```python -m venv ./venv```
 
 #### Enter virtual environment
-Run ``./venv/Scripts/activate``<br>
+Run `./venv/Scripts/activate`<br>
 Ensure that the prompt changed to show that youre in the virtual environment
 
 #### Install packages to the virtual environment
-pip install -r requirements.txt<br>
+```pip install -r requirements.txt```<br>
 on windows run
-```pip uninstall -y torch torchvision torchaudio
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128```
+```
+pip uninstall -y torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+```
 
 ## Run
 Start ```python ./receive_image.py```<br>
