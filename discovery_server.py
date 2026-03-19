@@ -38,3 +38,5 @@ def start_discovery_broadcaster(port: int = DISCOVERY_PORT):
 		except Exception as e:
 			print(f"[Discovery] Broadcast error: {e}")
 		time.sleep(BROADCAST_INTERVAL)
+
+start_discovery_broadcaster(DISCOVERY_PORT)

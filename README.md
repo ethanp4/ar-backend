@@ -10,7 +10,10 @@ Run ``./venv/Scripts/activate``<br>
 Ensure that the prompt changed to show that youre in the virtual environment
 
 #### Install packages to the virtual environment
-pip install -r requirements.txt
+pip install -r requirements.txt<br>
+on windows run
+```pip uninstall -y torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128```
 
 ## Run
 Start ```python ./receive_image.py```<br>
