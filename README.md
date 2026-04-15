@@ -2,7 +2,7 @@
 ### Download model
 Download the model from https://huggingface.co/depth-anything/Depth-Anything-V2-Large/blob/main/depth_anything_v2_vitl.pth and place in root of project
 
-use python 3.13
+use python 3.13.7
 
 ### Create virtual environment
 ```python -m venv .\venv```
